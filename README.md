@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(void)
+{
+int a,b,c,d;
+cout<<"Введіть значення a ";
+cin>>a;
+cout<<"Введіть значення b ";
+cin>>b;
+cout<<"Введіть значення c ";
+cin>>c;
+d=b*b-(4*a*c);
+
+if (d<0) cout<<"Рівняння немає коренів, дискримінант дорівнює "<<d<<endl; else
+if (d>0) cout<<"Рівняння має два корення, дискримінант дорівнює "<<d<<endl; else 
+cout<<"Рівняння має один корінь, дискримінант дорівнює "<<d<<endl;
+return 0;
+}
